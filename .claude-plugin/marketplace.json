@@ -1,0 +1,12 @@
+{
+  "name": "claude-context-diet",
+  "description": "Trim what Claude Code loads into context, per project.",
+  "owner": { "name": "Normandes Junior" },
+  "plugins": [
+    {
+      "name": "context-diet",
+      "source": "./plugins/context-diet",
+      "description": "Inventory loaded skills, plugins and MCP servers, measure their use from transcripts, and turn off what you pick."
+    }
+  ]
+}
